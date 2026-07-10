@@ -1,0 +1,99 @@
+{
+  "siteName": "Prompt Library",
+  "tagline": "更快寫出好提示詞",
+  "subtitle": "13 大類互動式提示詞模板。依產業、品牌個性與色彩心理學篩選。",
+  "nav": {
+    "home": "首頁",
+    "discover": "探索",
+    "markets": "市場",
+    "colors": "色彩",
+    "search": "搜尋"
+  },
+  "lang": {
+    "switchToZh": "中文",
+    "switchToEn": "EN",
+    "label": "語言"
+  },
+  "search": {
+    "placeholder": "搜尋提示詞…",
+    "button": "搜尋",
+    "noResults": "找不到符合的提示詞，請換個關鍵字試試。"
+  },
+  "sections": {
+    "title": "依分類瀏覽",
+    "prompts": "則提示詞",
+    "visuals": "視覺範例"
+  },
+  "featured": {
+    "title": "精選提示詞",
+    "subtitle": "行銷、利基市場與 AI 視覺生成的最佳模板。",
+    "badge": "精選"
+  },
+  "recommended": {
+    "title": "推薦",
+    "subtitle": "框架式提示詞 — 心理學、故事、談判與 meta 工具，我們真的會用。"
+  },
+  "markets": {
+    "title": "依市場找提示詞",
+    "subtitle": "依產業、產品類型與利基篩選，找到最符合你業務的模板。",
+    "industry": "產業",
+    "product": "產品類型",
+    "niche": "利基",
+    "all": "全部",
+    "clearFilters": "清除篩選",
+    "results": "則提示詞符合你的市場",
+    "noResults": "沒有符合的提示詞。試試減少一個篩選條件，或瀏覽全部市場。",
+    "browseSection": "瀏覽利基專用提示詞",
+    "homeTeaser": "依你的產業、產品與利基量身打造的提示詞。",
+    "fitsYourMarket": "符合你的市場"
+  },
+  "colors": {
+    "title": "色彩心理學",
+    "subtitle": "色彩在約 90 秒內形塑訪客對品牌的第一印象。將品牌個性（專業、活潑、奢華…）與網站、傳單、CTA 的配色策略結合。",
+    "personalities": "品牌個性",
+    "personalityHint": "品牌要給人什麼感覺 — 再選擇對應的色彩。",
+    "colorGuide": "色彩影響指南",
+    "bestFor": "最適合",
+    "psychology": "心理效果",
+    "uxImpact": "UX 影響",
+    "promptsFor": "此色彩的提示詞",
+    "browsePrompts": "建立配色方案",
+    "promptsHint": "把理論變成配色 — 網站、傳單、CTA 與完整品牌系統。",
+    "firstImpression": "第一印象",
+    "examples": "參考品牌",
+    "avoid": "避免",
+    "caution": "注意"
+  },
+  "prompt": {
+    "fillVariables": "填寫變數",
+    "customizeHint": "標有 ◆ 的欄位可自訂你的提示詞。",
+    "livePreview": "即時預覽",
+    "previewHint": "標示的文字會隨你編輯而更新。",
+    "copy": "複製提示詞",
+    "copied": "已複製！",
+    "openCodex": "在 Codex 開啟",
+    "openCursor": "在 Cursor 開啟",
+    "openGemini": "在 Gemini 開啟",
+    "openHint": "Codex 開啟桌面 App；Cursor 與 Gemini 在瀏覽器開啟。",
+    "tips": "提示",
+    "recommended": "推薦",
+    "recommendedWhy": "心理學框架 — 比一般文案更有轉換力。",
+    "examplePrompt": "生成此範例的提示詞",
+    "difficulty": {
+      "beginner": "入門",
+      "intermediate": "進階",
+      "advanced": "高級"
+    }
+  },
+  "discover": {
+    "title": "探索提示詞",
+    "subtitle": "瀏覽所有分類，找到適合你任務的模板。"
+  },
+  "footer": {
+    "free": "免費使用，無需登入。",
+    "ads": "本網站可能顯示廣告以維持免費營運。"
+  },
+  "ads": {
+    "label": "廣告"
+  }
+}

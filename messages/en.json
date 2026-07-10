@@ -1,0 +1,99 @@
+{
+  "siteName": "Prompt Library",
+  "tagline": "Build better prompts, faster.",
+  "subtitle": "Interactive prompt templates across 13 categories. Filter by industry, personality, and color psychology.",
+  "nav": {
+    "home": "Home",
+    "discover": "Discover",
+    "markets": "Markets",
+    "colors": "Colors",
+    "search": "Search"
+  },
+  "search": {
+    "placeholder": "Search prompts...",
+    "button": "Search",
+    "noResults": "No prompts found. Try a different keyword."
+  },
+  "sections": {
+    "title": "Browse by section",
+    "prompts": "prompts",
+    "visuals": "visual examples"
+  },
+  "featured": {
+    "title": "Featured prompts",
+    "subtitle": "Our best templates for marketing, niche markets, and AI visual generation.",
+    "badge": "Featured"
+  },
+  "recommended": {
+    "title": "Recommended",
+    "subtitle": "Framework-based prompts — psychology, storytelling, negotiation, and meta-tools we’d actually use."
+  },
+  "markets": {
+    "title": "Find prompts for your market",
+    "subtitle": "Filter by industry, product type, and niche to get templates that match your business.",
+    "industry": "Industry",
+    "product": "Product type",
+    "niche": "Niche",
+    "all": "All",
+    "clearFilters": "Clear filters",
+    "results": "prompts match your market",
+    "noResults": "No prompts match these filters. Try removing one filter or browse all markets.",
+    "browseSection": "Browse niche-ready prompts",
+    "homeTeaser": "Prompts tailored to your industry, product, and niche.",
+    "fitsYourMarket": "Fits your market"
+  },
+  "colors": {
+    "title": "Color psychology",
+    "subtitle": "Colors shape first impressions in ~90 seconds. Match brand personality (professional, playful, luxury…) with the right palette for websites, flyers, and CTAs.",
+    "personalities": "Brand personality",
+    "colorGuide": "Color impact guide",
+    "bestFor": "Best for",
+    "psychology": "Psychology",
+    "uxImpact": "UX impact",
+    "promptsFor": "Prompts for this color",
+    "browsePrompts": "Build a palette",
+    "firstImpression": "First impression",
+    "examples": "Examples",
+    "avoid": "Avoid",
+    "personalityHint": "How your brand should feel — then pick colors that match.",
+    "promptsHint": "Turn theory into palettes — websites, flyers, CTAs, and full brand systems.",
+    "caution": "Note"
+  },
+  "lang": {
+    "switchToZh": "中文",
+    "switchToEn": "EN",
+    "label": "Language"
+  },
+  "prompt": {
+    "fillVariables": "Fill in variables",
+    "customizeHint": "Fields marked with ◆ customize your prompt.",
+    "livePreview": "Live preview",
+    "previewHint": "Highlighted text updates as you edit.",
+    "copy": "Copy prompt",
+    "copied": "Copied!",
+    "openCodex": "Open in Codex",
+    "openCursor": "Open in Cursor",
+    "openGemini": "Open in Gemini",
+    "openHint": "Codex opens the desktop app. Cursor and Gemini open in your browser.",
+    "tips": "Tip",
+    "recommended": "Recommended",
+    "recommendedWhy": "Psychology-backed — structured for higher conversion than generic copy.",
+    "examplePrompt": "Example prompt that built this",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "discover": {
+    "title": "Discover prompts",
+    "subtitle": "Explore all sections and find the right template for your task."
+  },
+  "footer": {
+    "free": "Free to use. No login required.",
+    "ads": "This site may show ads to keep it free."
+  },
+  "ads": {
+    "label": "Advertisement"
+  }
+}

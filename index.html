@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free interactive AI prompt library. Fill in the blanks, copy, and open in Codex, Cursor, or Gemini.">
+  <title>Prompt Library — Build better prompts, faster</title>
+  <script>
+    // GitHub Pages project site lives at /prompt-library-web/
+    window.SITE_BASE = location.hostname === 'roy5945-code.github.io'
+      ? '/prompt-library-web/'
+      : './';
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/prompt-library-web/css/editorial.css?v=20260710b" id="main-css">
+  <script>
+    (function () {
+      var base = window.SITE_BASE;
+      var v = '?v=20260710b';
+      if (base === './') {
+        document.getElementById('main-css').href = base + 'css/editorial.css' + v;
+      }
+    })();
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <a href="#/" class="logo">Prompt Library</a>
+    <div class="nav-links">
+      <a href="#/discover" data-i18n="nav.discover">Discover</a>
+      <a href="#/markets" data-i18n="nav.markets">Markets</a>
+      <a href="#/colors" data-i18n="nav.colors">Colors</a>
+      <a href="#/search" data-i18n="nav.search">Search</a>
+    </div>
+  </nav>
+
+  <main id="app">
+    <div class="container empty-state" style="padding:48px 24px">
+      <p>Loading prompts…</p>
+    </div>
+  </main>
+
+  <aside id="ad-footer-slot" class="ad-slot ad-footer" aria-label="Advertisement"></aside>
+
+  <footer class="footer">
+    <p data-i18n="footer.free">Free to use. No login required.</p>
+    <p class="footer-muted" data-i18n="footer.ads">This site may show ads to keep it free.</p>
+    <p class="footer-muted" style="margin-top:12px">
+      <a id="privacy-link" href="privacy.html" style="color:var(--text-muted)">Privacy Policy</a>
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var base = window.SITE_BASE;
+      var pl = document.getElementById('privacy-link');
+      if (pl) pl.href = base + 'privacy.html';
+      var files = ['js/ads.js', 'js/i18n.js', 'js/template.js', 'js/app.js'];
+      var v = '?v=20260710b';
+      function loadNext(i) {
+        if (i >= files.length) return;
+        var s = document.createElement('script');
+        s.src = base + files[i] + v;
+        s.onload = function () { loadNext(i + 1); };
+        s.onerror = function () { console.error('Failed to load', files[i]); loadNext(i + 1); };
+        document.body.appendChild(s);
+      }
+      loadNext(0);
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "enabled": false,
+  "publisherId": "ca-pub-REPLACE_WITH_YOUR_ID",
+  "comment": "After AdSense approves you: set enabled to true and paste your publisher ID (starts with ca-pub-). Get ad slot IDs from AdSense dashboard and fill adSlots below.",
+  "adSlots": {
+    "footer": {
+      "slot": "REPLACE_SLOT_ID",
+      "format": "auto",
+      "fullWidthResponsive": true
+    },
+    "home": {
+      "slot": "REPLACE_SLOT_ID",
+      "format": "auto",
+      "fullWidthResponsive": true
+    },
+    "section": {
+      "slot": "REPLACE_SLOT_ID",
+      "format": "auto",
+      "fullWidthResponsive": true
+    }
+  }
+}
